@@ -128,7 +128,7 @@ margin-top: 10px;
 width: 74px;
 height: 24px;
 
-/* Base 1 (Semibold) */
+
 
 font-family: 'Inter';
 font-style: normal;
@@ -248,13 +248,14 @@ line-height: 27px;
 color: #FFFFFF;
 }
 
-/* html, body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
-} */
+ 
+}
 
 .list-title{
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -275,11 +276,149 @@ font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 39px;
-/* identical to box height */
+
 
 text-decoration-line: underline;
 
-/* Dark/Shade2 */
+
 
 color: #363A3D;
+}
+
+.page-style{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 1132px;
+height: 314px;
+left: 80px;
+top: 80px;
+}
+
+.page-style2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1px;
+
+width: 1139px;
+height: 250px;
+}
+.page-style3{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1132px;
+height: 38px;
+}
+
+.page-style3-1{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+padding: 10px 8px;
+gap: 8px;
+
+width: 106px;
+height: 37px;
+
+opacity: 0.6;
+}
+
+.page-style3-2{
+    display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: flex-end;
+padding: 5px 8px;
+
+width: 395px;
+height: 24px;
+gap:5px
+}
+
+.some-text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+color: #B3B3B3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #E6E6E6;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #E6E6E6;
+    height: 61px;
+
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+    height: 61px;
+  }
+
+  input::placeholder {
+    opacity: 0.5;
+    background: #f2f2f2 url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg') no-repeat 10px;
+    
+}
+
+/* input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #f2f2f2 url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png') no-repeat 10px center;
+    background-size: 20px 20px;
+    padding-left: 40px;
+  } */
+
+.button-new{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 65.86px;
+    height: 24px;
+    left: 0px;
+    top: calc(50% - 24px/2);
+    background: #6776FF;
+    border-radius: 4px 0px 0px 4px;
 }
