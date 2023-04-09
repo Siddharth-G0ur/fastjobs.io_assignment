@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function banner() {
+export default function Banner() {
     
     return (
         <div className="banner" >

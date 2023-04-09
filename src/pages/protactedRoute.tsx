@@ -4,7 +4,7 @@ import Image from "next/image"
 import { useSortBy, useTable, useGlobalFilter, useFilters } from "react-table"
 import { BsTable, BsSearch } from "react-icons/bs";
 
-export default function protactedRoute() {
+export default function ProtactedRoute() {
 
   const [data, setData] = useState([]);
 
